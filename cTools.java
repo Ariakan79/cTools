@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  *
- * @author sieberath
+ * @author Ariakan79
  */
 public class cTools {
 
@@ -22,7 +22,9 @@ public class cTools {
 
     
  
-    
+    public void testrun(){
+      // Do Tests
+    }
     public String byteArrayToHex(byte[] a) {
        StringBuilder sb = new StringBuilder(a.length * 2);
        for(byte b: a)
